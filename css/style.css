@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, ul, li, h1, h2, h3, h4, p {
+	padding: 0;
+	margin: 0;
+}
+
+article, aside, footer, header, main, nav, section {
+    display: block;
+}
+
+img {border: 0px;}
+
+a {text-decoration: none;}
+
+a:focus {outline: thin dotted;}
+
+a:active, a:hover {outline: 0;}
+
+.html {}
+.body {}
+.main-header {
+    position: fixed;
+    height: 60px;
+    background: #888;
+    width: 100%;
+}
+.logo {
+    margin: 11px 30px;
+    float: left;
+}
+.logo-link {}
+.nav {
+    float: right;
+}
+.nav-ul {}
+.nav-li {
+    display: inline-block;
+    margin: 21px 50px 21px 0;
+}
+.nav-link {
+    font-size: 16px;
+    color: #ddd;
+}
+.subscription-button {}
+.main-content {
+    padding: 60px 0 0;
+}
+.video-section {
+    width: 100%;
+    height: 550px;
+    background: #bbb;
+}
+.main-video {}
+.section {
+    background: #ddd;
+    padding: 60px 0;
+}
+.program-featured {
+}
+.program-featured-box {
+    width: 25%;
+    margin: 0 4%;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 180px;
+    text-align: center;
+    line-height: 180px; -moz-box-shadow: 2px 2px 3px #ddd; box-shadow: 2px 2px 3px #ddd; background-color: white; border: 1px solid #d1d1d1;
+}
+.program-featured-content {
+}
+.section-title {
+    text-align: center;
+    font-size: 35px;
+    margin: 0px 0 20px;
+}
+.program-content {}
+.program-content-li {
+    width: 25%;
+    display: inline-block;
+    margin: 0 4% 30px;
+}
+.program-content-img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 10px 15px 0 0;
+    background: #000;
+    border-radius: 40px;
+    -webkit-box-shadow: 2px 2px 3px #ddd; -moz-box-shadow: 2px 2px 3px #ddd; box-shadow: 2px 2px 3px #ddd;  border: 1px solid #d1d1d1;
+}
+.program-content-title {
+    margin: 0 0 5px;
+}
+.program-content-text {
+    font-size: 13px;
+}
+.crew {
+    background: #bbb;
+    display: inline-block;
+    width: 100%;
+}
+.crew-title {}
+.instructors {}
+.instructor {
+    width: 49.5%;
+    padding: 0 5%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0 0 50px;
+}
+.instructor-img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0 15px 0 0;
+    background: #000;
+    border-radius: 50px;    border: 1px solid #d1d1d1;
+}
+.instructor-name {
+    margin: 0px 0 10px;
+    font-size: 21px;
+}
+.instructor-bio {}
+.mentors {}
+.section-title-extra {
+    text-align: center;
+    font-size: 25px;
+    margin: -15px 0 30px;
+}
+.section-title-link {
+    margin: 0 0 0 15px;
+}
+.mentor {
+    width: 33%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 10%;
+    text-align: center;
+}
+.mentor-img {
+    width: 100px;
+    height: 100px;
+    background: #000;
+    margin: 0 0 15px;
+}
+.mentor-name {
+    font-size: 20px;
+}
+.mentor-company {}
+.partners {}
+.partners-title {}
+.partner {
+    display: inline-block;
+    width: 24.5%;
+}
+.partner-link {
+    width: 60%;
+    height: 100px;
+    display: inline-block;
+    background: #fff;
+    line-height: 100px;
+    text-align: center;
+    margin: 0 0 40px;
+    -webkit-box-shadow: 2px 2px 3px #ddd; -moz-box-shadow: 2px 2px 3px #ddd; box-shadow: 2px 2px 3px #ddd; background-color: white; border: 1px solid #d1d1d1;
+}
+.partner-logo {}
+.main-footer {
+    background: #888;
+    vertical-align: top;
+    padding: 60px 10%;
+}
+.footer-nav {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer-ul {}
+.footer-li {
+    list-style: none;
+    margin: 0 0 5px;
+}
+.footer-mailing {
+    width: 38%;
+    display: inline-block;
+}
+.mailing-form {}
+.mailing-label {}
+.mailing-text {}
+.mailing-submit {}
